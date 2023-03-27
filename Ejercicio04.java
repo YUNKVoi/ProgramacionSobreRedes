@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio4 {
+public class Ejercicio04 {
 
 	public static void main(String[] args) {
 		Scanner nroEntrada = new Scanner(System.in);
@@ -12,8 +12,11 @@ public class Ejercicio4 {
 		
 		nroEntrada.close();
 		
+		//Operador ternario
 		System.out.println((nro1>nro2) ? "El  primer  número es mayor" : (nro1==nro2) ? "Los números son iguales" : "El primer número es menor");
 		
+		
+		//IFs  
 		if (nro1>nro2) {
 			System.out.println("El  primer  número es mayor");
 		}else if (nro1 == nro2) {
