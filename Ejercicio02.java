@@ -19,7 +19,7 @@ public class Ejercicio2 {
 		System.out.println("Ingrese su edad");
 		edad = entrada.nextInt();
 		
-		System.out.println("Usted se llama " + nombre + " " + apellido + " y tiene " + edad + " años");
+		System.out.println("Usted se llama " + nombre + " " + apellido + " y tiene " + edad + " aÃ±os");
 		entrada.close();
 	}
 
