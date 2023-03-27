@@ -20,10 +20,10 @@ public class Ejercicio3 {
 		resultado = nro1-nro2;
 		System.out.println("Diferencia = " + resultado );
 	
-		resultado = nro1/nro2;
+		resultado = (double)(nro1/nro2);
 		System.out.println("Cociente = " + resultado );
 		
-		resultado = nro1%nro2;
+		resultado = (double)(nro1%nro2);
 		System.out.println("Resto1 = " + resultado );
 	}
 
